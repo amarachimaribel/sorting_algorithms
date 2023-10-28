@@ -5,13 +5,13 @@
  * @a: First integer to swap.
  * @b: Second integer to swap.
  */
-void swap_ints(int *n, int *m)
+void swap_ints(int *a, int *b)
 {
 	int tmp;
 
-	tmp = *n;
-	*n = *m;
-	*m = tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
 
 /**
